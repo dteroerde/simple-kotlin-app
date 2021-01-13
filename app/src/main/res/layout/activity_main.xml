@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#5D6062"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TableLayout
+            android:id="@+id/tableLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#5D6062"
+            android:gravity="fill_horizontal"
+            android:shrinkColumns="*"
+            android:stretchColumns="*">
+
+
+            <TableRow
+                android:id="@+id/tableRow_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#5D6062"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/splash_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_span="6"
+                    android:gravity="center"
+                    android:text="@string/geodetic"
+                    android:textColor="@android:color/white"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#989C9F"
+                android:gravity="center"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/TextView_serial"
+                    android:text="#" />
+
+                <TextView
+                    android:id="@+id/TextView_item_name"
+                    android:text="Sensor"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:id="@+id/TextView_quantity_no"
+                    android:text="Wert"
+                    android:typeface="serif" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#bdc3c7"
+                android:gravity="center">
+
+                <TextView android:text="1" />
+
+                <TextView
+                    android:text="Beschleunigung X-Achse"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:id="@+id/TextView_value_xacc"
+                    android:text="-"
+                    android:typeface="serif" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#989C9F"
+                android:gravity="center">
+
+                <TextView android:text="2" />
+
+                <TextView
+                    android:text="Beschleunigung Y-Achse"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:id="@+id/TextView_value_yacc"
+                    android:text="-"
+                    android:typeface="serif" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#bdc3c7"
+                android:gravity="center">
+
+                <TextView android:text="3" />
+
+                <TextView
+                    android:text="Beschleunigung Z-Achse"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:id="@+id/TextView_value_zacc"
+                    android:text="-"
+                    android:typeface="serif" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#989C9F"
+                android:gravity="center">
+
+                <TextView android:text="4" />
+
+                <TextView
+                    android:text="Gravitation x-Achse"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:id="@+id/TextView_value_xgrav"
+                    android:text="-"
+                    android:typeface="serif" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#bdc3c7"
+                android:gravity="center">
+
+                <TextView android:text="5" />
+
+                <TextView
+                    android:text="Gravitation Y-Achse"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:id="@+id/TextView_value_ygrav"
+                    android:text="-"
+                    android:typeface="serif" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#989C9F"
+                android:gravity="center">
+
+                <TextView android:text="6" />
+
+                <TextView
+                    android:text="Gravitation Z-Achse"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:id="@+id/TextView_value_zgrav"
+                    android:text="-"
+                    android:typeface="serif" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#bdc3c7"
+                android:gravity="center">
+
+                <TextView android:text="7" />
+
+                <TextView
+                    android:text="Magnetfeld x-Achse"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:id="@+id/TextView_value_xmag"
+                    android:text="-"
+                    android:typeface="serif" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#989C9F"
+                android:gravity="center">
+
+                <TextView android:text="8" />
+
+                <TextView
+                    android:text="Magnetfeld Y-Achse"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:id="@+id/TextView_value_ymag"
+                    android:text="-"
+                    android:typeface="serif" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#bdc3c7"
+                android:gravity="center">
+
+                <TextView android:text="9" />
+
+                <TextView
+                    android:text="Magnetfeld Z-Achse"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:id="@+id/TextView_value_zmag"
+                    android:text="-"
+                    android:typeface="serif" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#989C9F"
+                android:gravity="center">
+
+                <TextView android:text="10" />
+
+                <TextView
+                    android:text="Gyroskop x-Achse"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:id="@+id/TextView_value_xgyro"
+                    android:text="-"
+                    android:typeface="serif" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#bdc3c7"
+                android:gravity="center">
+
+                <TextView android:text="11" />
+
+                <TextView
+                    android:text="Gyroskop Y-Achse"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:id="@+id/TextView_value_ygyro"
+                    android:text="-"
+                    android:typeface="serif" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#989C9F"
+                android:gravity="center">
+
+                <TextView android:text="12" />
+
+                <TextView
+                    android:text="Gyroskop Z-Achse"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:id="@+id/TextView_value_zgyro"
+                    android:text="-"
+                    android:typeface="serif" />
+
+            </TableRow>
+
+        </TableLayout>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/tableLayout"
+            android:layout_alignParentStart="true"
+            android:onClick="clickStartStop"
+            android:text="@string/start_stop" />
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
