@@ -99,18 +99,30 @@ class MainActivity : Activity(), SensorEventListener {
     }
 
     fun setTextView() {
-            value_xacc.setText(mAcc?.get(0).toString())
-            value_yacc.setText(mAcc?.get(1).toString())
-            value_zacc.setText(mAcc?.get(2).toString())
-            value_xgrav.setText(mGrav?.get(0).toString())
-            value_ygrav.setText(mGrav?.get(1).toString())
-            value_zgrav.setText(mGrav?.get(2).toString())
-            value_xmag.setText(mMag?.get(0).toString())
-            value_ymag.setText(mMag?.get(1).toString())
-            value_zmag.setText(mMag?.get(2).toString())
-            value_xgyro.setText(mGyro?.get(0).toString())
-            value_ygyro.setText(mGyro?.get(1).toString())
-            value_zgyro.setText(mGyro?.get(2).toString())
+        val xacc: String = mAcc?.get(0).toString();
+        value_xacc.setText(xacc.substring(0, Math.min(xacc.length, 6)))
+        val yacc: String = mAcc?.get(1).toString();
+        value_yacc.setText(yacc.substring(0, Math.min(yacc.length, 6)))
+        val zacc: String = mAcc?.get(2).toString();
+        value_zacc.setText(zacc.substring(0, Math.min(zacc.length, 6)))
+        val xgrav: String = mGrav?.get(0).toString();
+        value_xgrav.setText(xgrav.substring(0, Math.min(xgrav.length, 6)))
+        val ygrav: String = mGrav?.get(1).toString();
+        value_ygrav.setText(ygrav.substring(0, Math.min(ygrav.length, 6)))
+        val zgrav: String = mGrav?.get(2).toString();
+        value_zgrav.setText(zgrav.substring(0, Math.min(zgrav.length, 6)))
+        val xmag: String = mMag?.get(0).toString();
+        value_xmag.setText(xmag.substring(0, Math.min(xmag.length, 6)))
+        val ymag: String = mMag?.get(1).toString();
+        value_ymag.setText(ymag.substring(0, Math.min(ymag.length, 6)))
+        val zmag: String = mMag?.get(2).toString();
+        value_zmag.setText(zmag.substring(0, Math.min(zmag.length, 6)))
+        val xgyro: String = mGyro?.get(0).toString();
+        value_xgyro.setText(xgyro.substring(0, Math.min(xgyro.length, 6)))
+        val ygyro: String = mGyro?.get(1).toString();
+        value_ygyro.setText(ygyro.substring(0, Math.min(ygyro.length, 6)))
+        val zgyro: String = mGyro?.get(2).toString();
+        value_zgyro.setText(zgyro.substring(0, Math.min(zgyro.length, 6)))
     }
 
     fun clickStartStop(view: View) {
