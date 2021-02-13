@@ -54,16 +54,16 @@
 
                 <TextView
                     android:id="@+id/TextView_serial"
-                    android:text="#" />
+                    android:text="@string/de_title_sharp" />
 
                 <TextView
                     android:id="@+id/TextView_item_name"
-                    android:text="Sensor"
+                    android:text="@string/de_title_sensor"
                     android:typeface="serif" />
 
                 <TextView
                     android:id="@+id/TextView_quantity_no"
-                    android:text="Wert"
+                    android:text="@string/de_title_value"
                     android:typeface="serif" />
 
             </TableRow>
@@ -75,15 +75,15 @@
                 android:background="#bdc3c7"
                 android:gravity="center">
 
-                <TextView android:text="1" />
+                <TextView android:text="@string/number_one" />
 
                 <TextView
-                    android:text="Beschleunigung X-Achse"
+                    android:text="@string/de_acceleration_x"
                     android:typeface="serif" />
 
                 <TextView
                     android:id="@+id/TextView_value_xacc"
-                    android:text="-"
+                    android:text="@string/placeholder_no_value"
                     android:typeface="serif" />
 
             </TableRow>
@@ -94,15 +94,15 @@
                 android:background="#989C9F"
                 android:gravity="center">
 
-                <TextView android:text="2" />
+                <TextView android:text="@string/number_two" />
 
                 <TextView
-                    android:text="Beschleunigung Y-Achse"
+                    android:text="@string/de_acceleration_y"
                     android:typeface="serif" />
 
                 <TextView
                     android:id="@+id/TextView_value_yacc"
-                    android:text="-"
+                    android:text="@string/placeholder_no_value"
                     android:typeface="serif" />
 
             </TableRow>
@@ -113,15 +113,15 @@
                 android:background="#bdc3c7"
                 android:gravity="center">
 
-                <TextView android:text="3" />
+                <TextView android:text="@string/number_three" />
 
                 <TextView
-                    android:text="Beschleunigung Z-Achse"
+                    android:text="@string/de_acceleration_z"
                     android:typeface="serif" />
 
                 <TextView
                     android:id="@+id/TextView_value_zacc"
-                    android:text="-"
+                    android:text="@string/placeholder_no_value"
                     android:typeface="serif" />
 
             </TableRow>
@@ -132,15 +132,15 @@
                 android:background="#989C9F"
                 android:gravity="center">
 
-                <TextView android:text="4" />
+                <TextView android:text="@string/number_four" />
 
                 <TextView
-                    android:text="Gravitation x-Achse"
+                    android:text="@string/de_grav_x"
                     android:typeface="serif" />
 
                 <TextView
                     android:id="@+id/TextView_value_xgrav"
-                    android:text="-"
+                    android:text="@string/placeholder_no_value"
                     android:typeface="serif" />
 
             </TableRow>
@@ -151,15 +151,15 @@
                 android:background="#bdc3c7"
                 android:gravity="center">
 
-                <TextView android:text="5" />
+                <TextView android:text="@string/number_five" />
 
                 <TextView
-                    android:text="Gravitation Y-Achse"
+                    android:text="@string/de_grav_y"
                     android:typeface="serif" />
 
                 <TextView
                     android:id="@+id/TextView_value_ygrav"
-                    android:text="-"
+                    android:text="@string/placeholder_no_value"
                     android:typeface="serif" />
 
             </TableRow>
@@ -170,15 +170,15 @@
                 android:background="#989C9F"
                 android:gravity="center">
 
-                <TextView android:text="6" />
+                <TextView android:text="@string/number_six" />
 
                 <TextView
-                    android:text="Gravitation Z-Achse"
+                    android:text="@string/de_grav_z"
                     android:typeface="serif" />
 
                 <TextView
                     android:id="@+id/TextView_value_zgrav"
-                    android:text="-"
+                    android:text="@string/placeholder_no_value"
                     android:typeface="serif" />
 
             </TableRow>
@@ -189,15 +189,15 @@
                 android:background="#bdc3c7"
                 android:gravity="center">
 
-                <TextView android:text="7" />
+                <TextView android:text="@string/number_seven" />
 
                 <TextView
-                    android:text="Magnetfeld x-Achse"
+                    android:text="@string/de_magn_x"
                     android:typeface="serif" />
 
                 <TextView
                     android:id="@+id/TextView_value_xmag"
-                    android:text="-"
+                    android:text="@string/placeholder_no_value"
                     android:typeface="serif" />
 
             </TableRow>
@@ -208,15 +208,15 @@
                 android:background="#989C9F"
                 android:gravity="center">
 
-                <TextView android:text="8" />
+                <TextView android:text="@string/number_eight" />
 
                 <TextView
-                    android:text="Magnetfeld Y-Achse"
+                    android:text="@string/de_magn_y"
                     android:typeface="serif" />
 
                 <TextView
                     android:id="@+id/TextView_value_ymag"
-                    android:text="-"
+                    android:text="@string/placeholder_no_value"
                     android:typeface="serif" />
 
             </TableRow>
@@ -227,15 +227,15 @@
                 android:background="#bdc3c7"
                 android:gravity="center">
 
-                <TextView android:text="9" />
+                <TextView android:text="@string/number_nine" />
 
                 <TextView
-                    android:text="Magnetfeld Z-Achse"
+                    android:text="@string/de_magn_z"
                     android:typeface="serif" />
 
                 <TextView
                     android:id="@+id/TextView_value_zmag"
-                    android:text="-"
+                    android:text="@string/placeholder_no_value"
                     android:typeface="serif" />
 
             </TableRow>
@@ -246,15 +246,15 @@
                 android:background="#989C9F"
                 android:gravity="center">
 
-                <TextView android:text="10" />
+                <TextView android:text="@string/number_ten" />
 
                 <TextView
-                    android:text="Gyroskop x-Achse"
+                    android:text="@string/de_gyro_x"
                     android:typeface="serif" />
 
                 <TextView
                     android:id="@+id/TextView_value_xgyro"
-                    android:text="-"
+                    android:text="@string/placeholder_no_value"
                     android:typeface="serif" />
 
             </TableRow>
@@ -265,15 +265,15 @@
                 android:background="#bdc3c7"
                 android:gravity="center">
 
-                <TextView android:text="11" />
+                <TextView android:text="@string/number_eleven" />
 
                 <TextView
-                    android:text="Gyroskop Y-Achse"
+                    android:text="@string/de_gyro_y"
                     android:typeface="serif" />
 
                 <TextView
                     android:id="@+id/TextView_value_ygyro"
-                    android:text="-"
+                    android:text="@string/placeholder_no_value"
                     android:typeface="serif" />
 
             </TableRow>
@@ -284,15 +284,15 @@
                 android:background="#989C9F"
                 android:gravity="center">
 
-                <TextView android:text="12" />
+                <TextView android:text="@string/number_twelve" />
 
                 <TextView
-                    android:text="Gyroskop Z-Achse"
+                    android:text="@string/de_gyro_z"
                     android:typeface="serif" />
 
                 <TextView
                     android:id="@+id/TextView_value_zgyro"
-                    android:text="-"
+                    android:text="@string/placeholder_no_value"
                     android:typeface="serif" />
 
             </TableRow>
